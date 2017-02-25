@@ -1,23 +1,23 @@
-html{
+body{
     background-color: rgb(208,208,208);
     text-align:center;
     letter-spacing: 10px;
-    opacity: 0.3;
     font-size: 20px;
+    line-height: 3em;
+    text-transform: uppercase;
     }
 
-    block1{
+    div:nth-child(odd)
+    {
         color: blue;
-        line-height: 60px;
+        font-size: 2em;
     }
-    block2{
+    div:nth-child(even)
+    {
         color:red;
-        font-size: 40px;
-        line-height: 60px;
     }
-div{
-    text-transform: uppercase;
-}
-.four{
-    text-transform:lowercase;
-}
+    div:nth-child(n+5)
+    {
+        text-transform: lowercase;
+    }
+    
