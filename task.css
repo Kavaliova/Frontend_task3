@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(208,208,208);
+    text-align:center;
+    letter-spacing: 10px;
+    opacity: 0.3;
+    font-size: 20px;
+    }
+
+    block1{
+        color: blue;
+        line-height: 60px;
+    }
+    block2{
+        color:red;
+        font-size: 40px;
+        line-height: 60px;
+    }
+div{
+    text-transform: uppercase;
+}
+.four{
+    text-transform:lowercase;
+}
